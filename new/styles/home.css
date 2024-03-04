@@ -1,0 +1,96 @@
+body {
+    background-image: url("hunter-reilly-qFdfPfZGkvw-unsplash.jpg");
+    background-size: cover;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border: 3px dotted white;
+    background-color: rgba(78, 18, 135, .5);
+    width: 350px;
+    height: 350px;
+}
+
+.contents li {
+    margin: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#enter button {
+    border-radius: 40px;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.contents {
+    list-style-type: none;
+}
+
+div {
+    display: inline-block;
+}
+
+.contents .wrapper {
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 10px 10px;
+    display: inline-block;
+    width: 100px;
+    background-color: rgb(0, 255, 42);
+    border: 2px double white;
+    overflow: clip;
+    height: 100px;
+}
+
+.contents .wrapper label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#manga {
+    background-size: cover;
+    color: purple;
+    background-image: url("yuta.jpg");
+}
+
+#music {
+    background-size: cover;
+    background-image: url("music.jpeg");
+}
+
+#fitness {
+    color: brown;
+    background-size: cover;
+    background-image: url("hobin.jpg");
+}
+
+#coding {
+    color: white;
+    background-size: cover;
+    background-color: lightskyblue;
+    background-image: url("python-logo-24.png");
+}
+
+
+ul .wrapper:hover {
+    padding: 5px;
+    display: inline-block;
+    width: 115px;
+    border: 2px double yellow;
+    background-color: rgb(0, 255, 42);
+    height: 125px;
+}
+
+/*li {
+    text-decoration: none;
+}

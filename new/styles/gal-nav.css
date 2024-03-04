@@ -1,0 +1,23 @@
+.navbar ul {
+    list-style-type: none;
+    background-color: purple;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar .im {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar .im:hover {
+    background-color: rgba(98, 0, 128, 0.425);
+}
+
+.navbar .nv {
+    float: left;
+}
